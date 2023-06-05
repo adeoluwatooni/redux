@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background: brown; 
+  color: black;
+  min-height: 550px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid black;
+  /* border-radius: 10px; */
+}
+
+.rotate-image {
+  width:300px;
+  pointer-events: none;
+  animation: logo infinite 20s linear;
+  margin: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+/* @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .rotate-image {
+  animation: rotate 10s linear infinite;
+} */
